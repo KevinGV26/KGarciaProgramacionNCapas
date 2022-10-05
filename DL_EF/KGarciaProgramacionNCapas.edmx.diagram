@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7102e52d4b194319a18ef03986552670" Name="Diagram1">
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Area" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Departamento" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Producto" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Proveedor" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Rol" Width="1.5" PointX="5.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Usuario" Width="1.5" PointX="8" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="KGarciaProgramacionNCapasModel.FK_IdArea" ManuallyRouted="false" />
+        <AssociationConnector Association="KGarciaProgramacionNCapasModel.FKIdDepartamento" ManuallyRouted="false" />
+        <AssociationConnector Association="KGarciaProgramacionNCapasModel.FKIdProveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="KGarciaProgramacionNCapasModel.FK__Usuario__IdRol__1DE57479" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Colonia" Width="1.5" PointX="14.125" PointY="1.25" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Direccion" Width="1.5" PointX="16.375" PointY="3.875" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Estado" Width="1.5" PointX="9.625" PointY="1.25" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Municipio" Width="1.5" PointX="11.875" PointY="1.25" />
+        <EntityTypeShape EntityType="KGarciaProgramacionNCapasModel.Pai" Width="1.5" PointX="7.375" PointY="1.375" />
+        <AssociationConnector Association="KGarciaProgramacionNCapasModel.fk_Colonia" />
+        <AssociationConnector Association="KGarciaProgramacionNCapasModel.fk_Municipio" />
+        <AssociationConnector Association="KGarciaProgramacionNCapasModel.fk_Usuario" />
+        <AssociationConnector Association="KGarciaProgramacionNCapasModel.fk_Estado" />
+        <AssociationConnector Association="KGarciaProgramacionNCapasModel.fk_Pais" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
